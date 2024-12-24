@@ -33,7 +33,7 @@ public class AppConfig {
 			public CorsConfiguration getCorsConfiguration(HttpServletRequest request) {
 				
 				CorsConfiguration ccf=new CorsConfiguration();
-				ccf.setAllowedOrigins(Arrays.asList("http://localhost:3000/"));
+				ccf.setAllowedOrigins(Arrays.asList("http://localhost:3000/","https://whatsapp-react-frontend.vercel.app/"));
 				ccf.setAllowedMethods(Collections.singletonList("*"));
 				ccf.setAllowCredentials(true);
 				ccf.setAllowedHeaders(Collections.singletonList("*"));
